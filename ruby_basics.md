@@ -63,7 +63,7 @@ puts 4 % 10 # 4
 ## Strings
 A string is a group of letters that represent a sentence or a word. Strings are defined by enclosing a text within single (') or double (") quote.
 
-> Two strings can be concatenated using + sign in between them.
+Two strings can be concatenated using + sign in between them.
 ``` puts "Hello" + "Ruby" ```
 
 > Multiplying a number string with a number will repeat the string as many times.
