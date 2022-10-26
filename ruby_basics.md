@@ -1,7 +1,7 @@
 # Basics of Ruby-lang 
 It will cover all of the syntax and terminologies of ruby language which is must require to start with scripting in ruby and work with Metasploit exploit development and so on.
  
- Note: This documentation is not for beginners at first you can learn from internet or books and then come here for only future revision.
+ > This documentation is not for beginners at first you can learn from internet or books and then come here for only future revision.
 ## Introduction 
   Ruby is an open-source object-oriented scripting language invented in the mid-90s by Yukihiro Matsumoto.
   It is an interpreted, high-level, general-purpose programming language that supports multiple programming paradigms.
