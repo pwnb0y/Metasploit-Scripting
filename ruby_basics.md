@@ -20,7 +20,8 @@ For Windows
 ## variables
 A Variable is a special container that stores data values.
 
-``` greet = "Good Evening!"
+```
+   greet = "Good Evening!"
    puts ("Hello Elliot " + greet) # Hello Elliot Good Evening!
    puts "Hello Elliot #{greet}"  # Hello Elliot Good Evening!
  ```
@@ -31,6 +32,13 @@ There are four types of variables in Ruby:
    3. Instance variables ``` @jobrole= "Pentester" ```
    4. Global variables  ```  $global_var = "GLOBAL" ```
 
+## Getting Input
+```
+   number  = gets.chomp.to_i # take input from user without going to next line and then convert it to integer
+   puts number
+```
+* chomp is a string method (String#chomp).
+* gets returns (gives you back) a string.
 
 ## Data Types 
 A data type tells the compiler or interpreter how the programmer intends to use the data.
@@ -43,7 +51,7 @@ A data type tells the compiler or interpreter how the programmer intends to use 
    * Booleans
 
 ## Math & Numbers
-``` time = nil ``` means nothing in the time variable.
+``` time = nil ``` mean's nothing in the time variable.
 
 ```
 puts 5 / 9 # 0
@@ -59,7 +67,8 @@ A string is a group of letters that represent a sentence or a word. Strings are 
 ``` puts "Hello" + "Ruby" ```
 
 > Multiplying a number string with a number will repeat the string as many times.
-``` 3.times { puts "Hello!" }
+``` 
+   3.times { puts "Hello!" }
     =begin  
      Hello!
      Hello!
@@ -102,17 +111,17 @@ Sun
 ```online_status = true```
 ```script_state = false```
 
-## Getting Input
-
 ## Control Statements
 ### if else 
 
-```  if (condition)  
+``` 
+  if (condition)  
     //code to be executed  
     end
 ```
 
-```  if(condition)  
+``` 
+  if(condition)  
         //code if condition is true  
     else  
     //code if condition is false  
@@ -152,7 +161,8 @@ end
 ## Ruby Comments
 ``` #This is single line comment.  ```
 
-```    =begin  
+```  
+=begin  
         This  
         is  
         multi line  
